@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*globales*/
+
+img {
+    width: 70px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141414;
+    font-family: 'Heebo', sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 70px;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 0 22px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #cacab8;
+}
+
+
+
+/*classes*/
+
+.name-bussines{
+    color: #cacab8;
+    font-size: 16px;
+    margin: 0 7px;
+}
+
+.banner{
+    background-image: url(./img/728f4702830df68a7cbd11252cb8f7de.jpg);
+    height: 673px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#525143, #181818);
+    opacity: 0.7;
+}
+
+.banner-info{
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+}
+
+.banner-title{
+    line-height: 1.5;
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 2000!important;
+    font-style: italic;
+}
+
+.banner-p{
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-button{
+    border-radius: 5px;
+    border-width: 0;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #ffcc00;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif ;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+}
+
+.banner-button:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+
+.sec-info{
+    background-color: #f2f2f2;
+    margin: 80px 0;
+    padding: 80px 0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.info-title{
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+}
+
+.info-text{
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+}
+
+/*ids*/
+
+#image-text{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-a:hover{
+    border-bottom: 2px solid rgb(226, 226, 39);
+    transition: .4s;
+}
